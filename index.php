@@ -200,7 +200,7 @@ footer{
 <!-- HERO -->
 <div class="hero">
     <div>
-        <h2>Donate Blood, Save Lives</h2>
+        <h2>please Donate Blood, Save Lives</h2>
         <p>Your one donation can give someone another chance at life.</p>
         <button class="btn" onclick="document.getElementById('register').scrollIntoView()">Become a Donor</button>
     </div>
