@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Divya-pillapalem8639/blooddonar-project.git'
+                git 'https://github.com/Divya-pillapalem8639/blooddonar-project'
             }
         }
 
