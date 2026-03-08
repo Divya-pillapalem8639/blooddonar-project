@@ -11,14 +11,13 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t blooddonor-app .'
+                sh 'docker build -t blooddonor .'
             }
         }
 
         stage('Run Container') {
             steps {
-                sh 'docker rm -f blooddonor || true'
-                sh 'docker run -d -p 80:80 --name blooddonor blooddonor-app'
+                sh 'docker run -d -p 80:80 blooddonor'
             }
         }
     }
